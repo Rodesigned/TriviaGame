@@ -1,0 +1,153 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+	margin: 0 auto;
+	width: 960px;
+	position: relative;
+	background-image: url("../images/trivia_bg.jpg");
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-color: #B771E9;
+}
+
+#wrapper {
+	position: absolute;
+	display: block;
+	margin: 400px 0 0 400px;
+	width: 500px;
+	box-sizing: border-box;
+	z-index: 999;
+	left: -152px;
+	top: -5px;
+}
+
+.big_tv {
+	position: fixed;
+	margin: 100px 0 0 230px;
+	width: 503px;
+	text-align: center;
+	z-index: 990;
+}
+
+h1 {
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 16px;
+	color: #D8D122;
+	z-index: 999;
+}
+
+/*start Button*/
+button#start{
+	position: absolute;
+	display: block;
+	margin: 150px 0 0 120px;
+	width: 204px;
+	text-align: center;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 30px;
+	cursor: pointer;
+	background: transparent;
+	z-index: 999;
+	left: 8px;
+	top: 7px;
+}
+
+#start-over {
+	position: absolute;
+	display: block;
+	margin: 140px 0 0 120px;
+	width: 204px;
+	text-align: center;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 30px;
+	cursor: pointer;
+	background: transparent;
+	z-index: 999;
+	left: 8px;
+	top: 7px;
+}
+
+
+/*countdoun timer nested in wrapper*/
+#subwrapper{
+    position: relative;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	text-align: center;
+	font-size: 20px;
+	margin-top: 40px;
+}
+
+/*Buttons for the answers*/
+button{
+	margin: 0 auto;
+	display: block;
+	width: 453px;
+	height: 35px;
+    border: none;
+	cursor: pointer;
+	background: transparent;
+	font-size: 20px;
+	margin-bottom: -8px;
+	text-align: center;
+}
+
+button:hover {
+  background-color: #CE9DE2;
+  border: none;
+}
+
+button#start:hover {
+  color: #CE9DE2;
+  border: none;
+}
+
+h2 {
+	margin-top: -10px;
+	color: #5213A8;
+}
+
+h3 {
+	color: #37C82C;
+	line-height: 20px;
+	margin-top: 10px; 
+}
+
+h4 {
+	margin-top: -25px;
+	padding-bottom: 5px; 
+	color: #F23504;
+	text-align: center;
+	font-size: 18px;
+	z-index: 999;
+}
+
+.answerImg {
+	position: fixed;
+	margin: 100px 0 0 233px;
+	width: 498px;
+	text-align: center;
+	z-index: 999;
+}
+
+.answerImgs {
+	position: fixed;
+	display: block;
+	margin: -375px 50px 0 20px;
+	width: 425px;
+	height: 270px;
+}
+
+
+#trivia 
+	{
+	position: absolute;
+	margin-top: 35px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-align: center;
+	width: 450px;
+	z-index: 999;
+
+}
